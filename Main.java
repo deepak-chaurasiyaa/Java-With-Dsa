@@ -40,7 +40,7 @@ public class Main {
         System.out.println(hexaDecimalNumber);
 
         // Floating Point literals.
-        
+
         double myDouble = 3.5;
         float myFloat = 3.5F;
         double myDoubleScientific = 3.445e2;
@@ -48,6 +48,31 @@ public class Main {
         System.out.println(myDouble);
         System.out.println(myFloat);
         System.out.println(myDoubleScientific);
+
+        // The Floating point literals are used to initialize float and double type
+        // variables.
+
+        // Charecter literals are unicode charecter enclosed inside single quotes for
+        // example -
+        char letter = 'a';
+        System.out.println(letter);
+        // here a is a charecter literals.
+
+        // String literal => String literal is a sequence of charecter enclosed inside
+        // double-quotes for
+        // Example :
+        String str = "This is String literals";
+        System.out.println(str);
+
+        // Boolean Literals => boolean literal is used to initialize boolean value it
+        // can be either true or false.
+
+        boolean trueInitialization = true;
+        boolean falseinitialization = false;
+
+        System.out.println(trueInitialization);
+        System.out.println(falseinitialization);
+
     }
 
 }
