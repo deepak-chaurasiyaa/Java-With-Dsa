@@ -14,6 +14,9 @@ public class Main {
         int a = 1;
         float b = (int) 2.5;
         char c = 'F';
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
 
         // 1. Integer Literals => Integer literals are numeric values (associated with
         // numbers) without any fractional or exponential part. There are 4 types of
@@ -35,5 +38,16 @@ public class Main {
         System.out.println(decimalNumber);
         System.out.println(octalNumber);
         System.out.println(hexaDecimalNumber);
+
+        // Floating Point literals.
+        
+        double myDouble = 3.5;
+        float myFloat = 3.5F;
+        double myDoubleScientific = 3.445e2;
+
+        System.out.println(myDouble);
+        System.out.println(myFloat);
+        System.out.println(myDoubleScientific);
     }
+
 }
